@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urlap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div>
+    <from>
+        <fieldset>
+            <legend><strong>Szállítási cím módosítása</strong></legend><br>
+
+            <label for="Nev">Név</label>
+            <input type="text" id="Nev">
+            
+            <label for="telefonszam">Telefonszám</label>
+            <input type="number" id="telefonszam" name="telefonszam"><br><br>
+
+            <label for="iranyitoszam">Irányítószám</label>
+            <input type="number" id="iranyitoszam" name="iranyitoszam">
+
+            <label for="varos">Város</label>
+            <select id="varos" name="varos">
+                <option value="Debrecen">Debrecen</option>
+                <option value="Budapest">Budapest</option>
+                <option value="Szeged">Szeged</option>
+                <option value="Győr">Győr</option>
+                <option value="Sopron">Sopron</option>
+            </select><br><br>
+
+            <label for="orszag">Ország</label>
+            <select id="orszag" name="orszag">
+                <option value="Magyarorszag">Magyarország</option>
+                <option value="Szlovénia">Szlovénia</option>
+                <option value="Anglia">Anglia</option>
+                <option value="Németország">Németország</option>
+            </select>
+                
+            <label for="cím">Cím</label>
+            <input type="text" id="cím" name="cím"><br><br>
+
+            <input type="submit" id="submit" value="Mentés">
+
+        </fieldset>
+    </from>
+</div>
+
+</body>
+</html>

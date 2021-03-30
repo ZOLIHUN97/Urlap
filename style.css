@@ -1,0 +1,35 @@
+submit{
+    background-color: green;
+    color: white;
+    width: 500px;
+}
+
+
+div{
+    width: 500px;
+    float: left;
+}
+
+#Nev{
+    width: 200px;
+}
+
+#telefonszam{
+    width: 150px;
+}
+
+#iranyitoszam{
+    width: 100px;
+}
+
+#varos{
+    width: 250px;
+}
+
+#orszag{
+    width: 150px;
+}
+
+#cím{
+    width: 250px;
+}
